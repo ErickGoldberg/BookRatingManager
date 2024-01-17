@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRatingManager.API", "Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRatingManager.Core", "BookRatingManager.Core\BookRatingManager.Core.csproj", "{1CA3DB0F-5743-436C-880E-F23FA62F9B62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRatingManager.Infrastructure", "BookRatingManager.Infrastructure\BookRatingManager.Infrastructure.csproj", "{787DE636-6C63-4235-8384-1A0BF91B1138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRatingManager.Application", "BookRatingManager.Application\BookRatingManager.Application.csproj", "{358E8290-B48F-4D75-A36D-AEB0FFFBBB54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1CA3DB0F-5743-436C-880E-F23FA62F9B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CA3DB0F-5743-436C-880E-F23FA62F9B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CA3DB0F-5743-436C-880E-F23FA62F9B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787DE636-6C63-4235-8384-1A0BF91B1138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787DE636-6C63-4235-8384-1A0BF91B1138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787DE636-6C63-4235-8384-1A0BF91B1138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787DE636-6C63-4235-8384-1A0BF91B1138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358E8290-B48F-4D75-A36D-AEB0FFFBBB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358E8290-B48F-4D75-A36D-AEB0FFFBBB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358E8290-B48F-4D75-A36D-AEB0FFFBBB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358E8290-B48F-4D75-A36D-AEB0FFFBBB54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
